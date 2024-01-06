@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+*{
+    font-family: "Montserrat";
+}
+body{
+    background-color: rgb(0, 0, 93);
+    background:linear-gradient(to right,#93A5CF , #E4EfE9);
+}
+.login{
+    height: 500px;
+    background-color: linear-gradient(to right,#93A5CF , #E4EfE9);
+    width:1000px;
+    margin-left: 220px;
+    margin-top: 100px;
+    box-shadow: 5px 10px 15px 2px #516395;
+    display: grid;
+    grid-template-areas: 'i1 i2';
+}
+.i1{
+    grid-area: i1;
+    background-color: blue;
+    width:500px;
+    height: 500px;
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+    opacity: 0.6;
+    float: right;
+}
+.motto{
+    padding: 90px;
+    font-size: 30px;
+    font-family: "Montserrat";
+    font-weight: bolder;
+    color:#516395;
+}
+.login input{
+    margin-right: 100px;
+    height:35px;
+    width: 300px;
+    border-radius:3px;
+    border-color: transparent;
+    font-weight: bold;
+    border:none;
+    background-color:#dfe5f1 ;
+    text-indent: 15px;
+}
+.login input:hover{
+    border-color:#a7aec1;
+}
+.login input:focus{
+    outline: #516395;
+}
+.login button{
+    height:40px;
+    width:200px;
+    border-radius:6px;
+    border:none;
+    font-weight: bold;
+    color: #516395;
+    background-color:#93A5CF;
+    margin-left:60px;
+}
+.i2{
+    margin-left: 60px;
+}
+
