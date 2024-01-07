@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body style="margin:0;padding:0;">
+    <div class="background">
+    <div class="navbar">
+        <div style="font-family:Montserrat;color: white; font-weight: bolder; font-size:30px;padding: 15px;margin-right: 500px; ">BeeWays</div>
+        <div>
+            <ul>
+                <li>Book & Prepare</li>
+                <li>My Booking</li>
+                <li>Account</li>
+                <li>About Us</li>
+            </ul>
+        </div>
+    </div>
+    <div class="circle4"></div>
+    <div class="circles">
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="circle3"></div>
+    </div>
+    <div class="book">
+        <div style="padding: 10px;border-bottom: 1px solid #556388;font-size: larger;"><i style="font-size: larger;color: #556388;"class="fa fa-plane"></i>  Flights</div>
+        <br>
+        <form >
+            <div class="formHomeLine1">
+                <select name="boarding" id="boarding">
+                    <option value="" disabled selected hidden>From</option>
+                    <option value="Amsterdam">Amsterdam</option>
+                    <option value="New York">New York</option>
+                    <option value="Dubai">Dubai</option>
+                    <option value="Singapore">Singapore</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Los Angeles">Los Angeles</option>
+                </select>
+                <select name="destination" id="destination">
+                    <option value="" disabled selected hidden>To</option>
+                    <option value="Amsterdam">Amsterdam</option>
+                    <option value="New York">New York</option>
+                    <option value="Dubai">Dubai</option>
+                    <option value="Singapore">Singapore</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Los Angeles">Los Angeles</option>
+                </select>
+                <input placeholder="Departure" type="date" >
+            </div><br>
+            <div class="formHomeLine2">
+                <select name="seattype" id="seattype" >
+                    <option value="" disabled selected hidden>Select Travel Class</option>
+                    <option value="First">First Class</option>
+                    <option value="Business">Business Class</option>
+                    <option value="Economy">Economy</option>
+                </select>
+                <input type="submit" value="Search for Flights">
+            </div>
+        </form>
+    </div>
+    </div>
+</body>
+</html>
