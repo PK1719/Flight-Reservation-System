@@ -5,15 +5,14 @@
 }
 body{
     background-color: rgb(0, 0, 93);
-    background:linear-gradient(to right,#93A5CF , #E4EfE9);
 }
 .login{
     height: 500px;
-    background-color: linear-gradient(to right,#93A5CF , #E4EfE9);
+    background-color: white;
     width:1000px;
     margin-left: 220px;
     margin-top: 100px;
-    box-shadow: 5px 10px 15px 2px #516395;
+    box-shadow: 5px 10px 15px 2px ;
     display: grid;
     grid-template-areas: 'i1 i2';
 }
@@ -25,15 +24,14 @@ body{
     background-image: url("back.jpg");
     background-repeat: no-repeat;
     background-size: 500px 500px;
-    opacity: 0.6;
     float: right;
 }
 .motto{
-    padding: 80px;
+    padding: 70px;
     font-size: 30px;
     font-family: "Montserrat";
     font-weight: bolder;
-    color:#516395;
+    color: white;
 }
 .login input{
     margin-right: 100px;
@@ -58,15 +56,15 @@ body{
     border-radius:6px;
     border:none;
     font-weight: bold;
-    color: #516395;
-    background-color:#93A5CF;
+    color: white;
+    background-color:rgb(0, 0, 93);
     margin-left:60px;
 }
 .i2{
     margin-left: 60px;
 }
 .navbar{
-    background-color: #556388;
+    background-color: rgb(0, 0, 93);
     height:70px;
     display: flex;
     justify-content:space-around ;
@@ -96,15 +94,17 @@ li:hover{
 .book{
     width:900px;
     height:190px;
-    background-color: #e7e7e7;
+    background-color: white;
     margin-left: 300px;
     border-radius: 6px;
     margin-top: 170px;
+    position: relative;
+    border:1.5
 }
 .circle1{
     width:100px;
     height: 100px;
-    background-color: #E4EfE9;
+    background-color: rgb(0, 0, 93);
     border-radius: 50%;
     opacity: 0.1;
     margin-left: 40px;
@@ -113,7 +113,7 @@ li:hover{
 .circle2{
     width:300px;
     height: 300px;
-    background-color: #E4EfE9;
+    background-color: rgb(0, 0, 93);
     border-radius: 50%;
     opacity: 0.1;
     margin-left: 190px;
@@ -122,16 +122,16 @@ li:hover{
 .circle3{
     width:200px;
     height: 200px;
-    background-color: #93A5CF;
+    background-color: rgb(0, 0, 93);
     border-radius: 50%;
-    opacity: 0.15;
+    opacity: 0.3;
     margin-left: 380px;
     margin-top: 30px;
 }
 .circle4{
     width:120px;
     height: 120px;
-    background-color: #93A5CF;
+    background-color: rgb(0, 0, 93);
     border-radius: 50%;
     opacity: 0.15;
     float: right;
@@ -144,13 +144,12 @@ select,input{
     width: 190px;
     height: 38px;
     border-radius:5px;
-    font-weight: bold;
     color:#516395;
     text-align:100px;
     border-top: none;
     border-left: none;
-    border-bottom: 3px solid #516395;
-    border-right: 3px solid #516395;    
+    border-bottom: 3px solid rgb(0, 0, 93);
+    border-right: 3px solid rgb(0, 0, 93);    
 }
 .formHomeLine1 {
     display: flex;
@@ -162,14 +161,70 @@ select[name="seattype"]{
     margin-left: 20px;
 }
 input[type="submit"]{
-    background: linear-gradient(to right,#93A5CF , #E4EfE9,#93A5CF);
+    color: white;
+    background-color: rgb(0, 0, 93);
     margin-left:30px;
-    border: 2px solid #516395;
+    border: 2px solid rgb(0, 0, 93);
 }
 .slogan{
     margin-top:250px;
     margin-left: 300px;   
     font-size: 50px;
     font-weight: bold;
-    color: #516395;
+    color: rgb(0, 0, 93);
 }
+footer{
+    background-color: rgb(0, 0, 93);
+    margin: 0;
+}
+.fpara{
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
+.fa-twitter {
+    background: rgb(0, 0, 93);
+    color: white;
+  }
+  .fa-google {
+    background:rgb(0, 0, 93);
+    color: white;
+  }
+  .fa-linkedin {
+    background:rgb(0, 0, 93);
+    color: white;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    height: 10px;
+    text-align: center;
+    text-decoration: none; 
+  }
+  .icons{
+    text-align: center;
+  }
+  .booking{
+    height:400px;
+    width: 1400px;
+    background-color: #f0f0f0;
+    margin-top: 15px;
+    margin-left: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+  }
+  li a{
+    text-decoration: none;
+    color:white;
+  }
+  li a:hover{
+    color:rgb(0, 0, 93)
+  }
+  .bookingform input{
+        background-color: #f0f0f0;
+        width: 250px;
+        border-radius: 0;
+        border-right:1px solid rgb(0, 0, 93); 
+        border-bottom:1px solid rgb(0, 0, 93); 
+  }
