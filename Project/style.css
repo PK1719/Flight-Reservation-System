@@ -21,7 +21,7 @@ body{
     background-color: blue;
     width:500px;
     height: 500px;
-    background-image: url("back.jpg");
+    background-image: url("/images/back.jpg");
     background-repeat: no-repeat;
     background-size: 500px 500px;
     float: right;
@@ -104,36 +104,39 @@ li:hover{
 .circle1{
     width:100px;
     height: 100px;
-    background-color: rgb(0, 0, 93);
+    background-color:#488bc2;
     border-radius: 50%;
-    opacity: 0.1;
+    opacity: 0.2;
     margin-left: 40px;
     margin-top: 80px;
 }
 .circle2{
     width:300px;
     height: 300px;
-    background-color: rgb(0, 0, 93);
+    background-color: 
+    #488bc2;
     border-radius: 50%;
-    opacity: 0.1;
+    opacity: 0.2;
     margin-left: 190px;
     margin-top: 100px;
 }
 .circle3{
     width:200px;
     height: 200px;
-    background-color: rgb(0, 0, 93);
+    background-color: 
+    #488bc2;
     border-radius: 50%;
-    opacity: 0.3;
+    opacity: 0.2;
     margin-left: 380px;
     margin-top: 30px;
 }
 .circle4{
     width:120px;
     height: 120px;
-    background-color: rgb(0, 0, 93);
+    background-color: 
+    #488bc2;
     border-radius: 50%;
-    opacity: 0.15;
+    opacity: 0.2;
     float: right;
 }
 .circles{
@@ -175,7 +178,7 @@ input[type="submit"]{
 }
 footer{
     background-color: rgb(0, 0, 93);
-    margin: 0;
+    margin: 0;  
 }
 .fpara{
     color: white;
@@ -206,7 +209,7 @@ footer{
     text-align: center;
   }
   .booking{
-    height:400px;
+    height:680px;
     width: 1400px;
     background-color: #f0f0f0;
     margin-top: 15px;
@@ -228,3 +231,68 @@ footer{
         border-right:1px solid rgb(0, 0, 93); 
         border-bottom:1px solid rgb(0, 0, 93); 
   }
+  .hidden{
+    display: none;
+  }
+  .boarding{
+    width: 40px;
+    height: 30px;
+  }
+  .submitbutton{
+    color: white;
+    background-color: rgb(0, 0, 93);
+    margin-left:30px;
+    border: 2px solid rgb(0, 0, 93);
+  }
+.offer{
+    width: 100%;
+    height:480px;
+    background-image: url("/images/offer.jpeg");
+    background-size: cover;
+}
+.cards{
+    display: flex;
+    margin-left: 100px;
+    flex-wrap: wrap;
+    gap:70px;
+}
+.carder img{
+    width:600px;
+    height: 350px;
+
+}
+.carder{
+    width: 600px;
+    height: 550px;
+    border: none;
+}
+.carder p{
+    color: rgb(0, 0, 93);
+}
+.carder h4{
+    color: rgb(0, 0, 93);
+    font-weight: bold;
+}
+.cards2{
+    display: flex;
+    margin-left: 100px;
+    flex-wrap: wrap;
+    gap:70px;
+}
+.carder1 img{
+    width:380px;
+    height: 170px;
+
+}
+.carder1{
+    width: 380px;
+    height: 320px;
+    border: none;
+}
+.carder1 p{
+    color: rgb(0, 0, 93);
+}
+.carder1 h4{
+    color: rgb(0, 0, 93);
+    font-weight: bold;
+}
