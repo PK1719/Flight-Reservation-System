@@ -15,8 +15,7 @@
         <div>
             <ul>
                 <li><a href="Booking.html">Book & Prepare</a></li>
-                <li><a href="">My Booking</a></li>
-                <li><a href="">Account</a></li>
+                <li><a href="Mybooking.html">My Booking</a></li>
                 <li><a href="Aboutus.html">About Us</a></li>
             </ul>
         </div>
@@ -29,13 +28,13 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="/images/carousel2.jpg" class="d-block w-100" style="height: 700px;">
+            <img src="/Project/images/carousel2.jpg" class="d-block w-100" style="height: 700px;">
           </div>
           <div class="carousel-item">
-            <img src="/images/carousel1.jpg" class="d-block w-100"style="height: 700px;" >
+            <img src="/Project/images/carousel1.jpg" class="d-block w-100"style="height: 700px;" >
           </div>
           <div class="carousel-item">
-            <img src="/images/carousel3.jpg" class="d-block w-100" style="height: 700px;">
+            <img src="/Project/images/carousel3.jpg" class="d-block w-100" style="height: 700px;">
             
           </div>
         </div>
@@ -79,7 +78,7 @@
                     <option value="Japan">Japan</option>
                     <option value="Los Angeles">Los Angeles</option>
                 </select>
-                <input placeholder="Departure" type="date" >
+                 <input type="date" id="date" name="date">
             </div><br>
             <div class="formHomeLine2">
                 <select name="seattype" id="seattype" >
@@ -114,3 +113,18 @@
     </footer>
 </body>
 </html>
+<script>
+  var today=new Date();    
+  var y=today.getFullYear();
+  var m=today.getMonth() + 1;
+  var dd=today.getDate();
+  var rd=today.getDate()+4;
+  if(m<10){
+  m='0'+m;
+  }
+  if(dd<10){
+  dd='0'+dd;
+  }
+  var departureDate = y + '-' + m + '-' + dd;
+  document.getElementById('date').value = departureDate;
+</script>
